@@ -1,10 +1,10 @@
-# BetWise — gambling-risk classification
+# BetWise, gambling-risk classification
 
 Prototype medical device software that classifies self-reported online-gambling
 behaviour into four risk levels, with SHAP used both for per-prediction explanation
 and for a fairness audit of the model.
 
-Laboratory of Medical Devices and Systems, BSc in Artificial Intelligence —
+Laboratory of Medical Devices and Systems, BSc in Artificial Intelligence,
 University of Pavia, University of Milano-Bicocca, University of Milan, June 2025.
 
 Team project with Chiara Bosi and Leonardo Castelli.
@@ -74,7 +74,7 @@ F1 was preferred over MCC for interpretability in a clinical decision-support co
 `p2net` (net expenditure on live bets) dominates across all four classes, while gender
 and `Zp2totalactivedays1m` are specifically relevant for classes 2 and 4.
 
-**Fairness audit.** Users were grouped by age (<30, 31–50, >50) and gender, and the
+**Fairness audit.** Users were grouped by age (<30, 31 to 50, >50) and gender, and the
 distribution of total absolute SHAP magnitude compared across groups. The audit
 identified:
 
