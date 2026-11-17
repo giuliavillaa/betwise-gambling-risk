@@ -100,8 +100,8 @@ control, and a documented human-in-the-loop design.
 
 ## Stack
 
-`xgboost` · `scikit-learn` · `imbalanced-learn` · `mlxtend` · `SHAP` · `pandas` ·
-`numpy` · `scipy` · `seaborn` · `matplotlib` · `missingno`
+`xgboost`, `scikit-learn`, `imbalanced-learn`, `mlxtend`, `SHAP`, `pandas`,
+`numpy`, `scipy`, `seaborn`, `matplotlib`, `missingno`
 
 ## Limitations
 
